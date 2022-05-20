@@ -5,7 +5,7 @@ import "./App.css";
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=5c6da8bc";
 
-// 5c6da8bc
+// 5c6da8bc ----------- this is api key.....
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState([]);
